@@ -1,0 +1,17 @@
+﻿<Window x:Class="PZ_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Long Calculations" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button Content="Старт" Click="StartCalculations_Click" Margin="5"/>
+        <ProgressBar x:Name="PR1" Grid.Row="1" Height="20" Margin="5" Value="{Binding Progress}"/>
+        <InkCanvas Grid.Row="2" Margin="5" Background="White"/>
+        <TextBlock Grid.Row="3" Margin="5" Text="{Binding Status}"/>
+    </Grid>
+</Window>
