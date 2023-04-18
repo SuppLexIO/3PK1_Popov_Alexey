@@ -35,14 +35,12 @@
             <Button x:Name="CopyButton" Content="Копировать" Width="89" Click="CopyButton_Click" />
             <Button x:Name="PasteButton" Content="Вставить" Width="70" Margin="5" Click="PasteButton_Click" />
             <Separator />
-            <Button x:Name="UndoButton" Content="Вернуть назад" Width="130" Click="UndoButton_Click" />
-            <Button x:Name="RedoButton" Content="Отдать вперед" Width="142" Click="RedoButton_Click" />
+            <Button x:Name="UndoButton" Content="Назад" Width="44" Click="UndoButton_Click" />
+            <Button x:Name="RedoButton" Content="Вперед" Width="54" Click="RedoButton_Click" />
             <Separator />
            
         </ToolBar>
         <TextBox x:Name="TextBox" Grid.Row="1" Margin="5" AcceptsReturn="True" AcceptsTab="True" TextChanged="TextBox_TextChanged"  />
-        <StatusBar Grid.Row="2">
-            <TextBlock x:Name="WordCountTextBlock" />
-        </StatusBar>
+       
     </Grid>
 </Window>
