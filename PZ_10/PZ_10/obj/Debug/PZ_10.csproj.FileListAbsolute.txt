@@ -1,0 +1,15 @@
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.csproj.AssemblyReference.cache
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.csproj.SuggestedBindingRedirects.cache
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\MainWindow.baml
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\MainWindow.g.cs
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\App.g.cs
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10_MarkupCompile.cache
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.g.resources
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.Properties.Resources.resources
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.csproj.GenerateResource.cache
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.csproj.CoreCompileInputs.cache
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\bin\Debug\PZ_10.exe.config
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\bin\Debug\PZ_10.exe
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\bin\Debug\PZ_10.pdb
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.exe
+C:\Users\popov.am1241\source\repos\PZ_10\PZ_10\obj\Debug\PZ_10.pdb
