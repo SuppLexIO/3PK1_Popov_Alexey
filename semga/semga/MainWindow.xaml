@@ -1,0 +1,21 @@
+﻿<Window x:Class="semga.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:semga"
+        mc:Ignorable="d"
+        Title="Заметки" Height="661.333" Width="447.752"  ResizeMode="NoResize">
+    <Grid Margin="0,0,10,0">
+        <Button x:Name="Add_Bt" Content="Добавить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="61" Width="135" Click="Add_Bt_Click"/>
+        <Button x:Name="AddText_Bt" Content="текст" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="61" Width="64" Visibility="Hidden" Click="AddText_Bt_Click"/>
+        <Button x:Name="AddImage_Bt"  Content="рисунок" HorizontalAlignment="Left" Margin="74,10,0,0" VerticalAlignment="Top" Height="61" Width="64" Visibility="Hidden" Click="AddImage_Bt_Click"/>
+        <Button x:Name="Delete_Bt"  Content="Удалить" HorizontalAlignment="Left" Margin="150,10,0,0" VerticalAlignment="Top" Height="61" Width="137" Click="Delete_Bt_Click"/>
+        <ListBox x:Name="TxtPro3000" Margin="10,121,3,317" MouseDoubleClick="TxtPro3000_MouseDoubleClick"/>
+        <Button x:Name="Delete_Bt_Copy"  Content="Обновка" HorizontalAlignment="Left" Margin="292,10,0,0" VerticalAlignment="Top" Height="61" Width="137" Click="Delete_Bt_Copy_Click"/>
+        <ListBox x:Name="TxtPro3000_Copy" Margin="10,386,3,52" MouseDoubleClick="TxtPro3000_MouseDoubleClick2"/>
+        <Label Content="Выбор текстовых файлов:" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="277"/>
+        <Label Content="Выбор картинок:" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="277"/>
+
+    </Grid>
+</Window>
